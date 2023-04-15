@@ -42,6 +42,10 @@ section#region-main, section.block_calendar_month, section.block_navigation, sec
     background-color: var(--dark1);
 }
 
+.navbar-bootswatch {
+    background-color: var(--dark1);
+}
+
 .list-group-item a, .table {
     color: var(--text);
 }
