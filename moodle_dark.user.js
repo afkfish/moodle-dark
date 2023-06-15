@@ -2,7 +2,7 @@
 // @name     Moodle darkmode
 // @match  https://edu.vik.bme.hu/*
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.0
 // @description  Modern look to Moodle
 // @author       afkfish
 // @grant    GM_addStyle
@@ -42,6 +42,10 @@ section#region-main, section.block_calendar_month, section.block_navigation, sec
     background-color: var(--dark1);
 }
 
+.navbar-bootswatch {
+    background-color: var(--dark1);
+}
+
 .list-group-item a, .table {
     color: var(--text);
 }
@@ -58,28 +62,12 @@ a, .btn-link, .generaltable {
     color: var(--text);
 }
 
-a:hover, .btn-link:hover {
+a:hover, .btn-link:hover, .que .info, .que .info a {
     color: #000;
 }
 
 .generaltable tbody tr:hover {
     color: var(--text);
-}
-
-.que .info {
-    border-color: var(--theme_contrast_light);
-}
-
-table.quizreviewsummary th.cell, .que .info {
-    background-color: var(--dark1);
-}
-
-table.quizreviewsummary td.cell {
-    background-color: var(--dark2);
-}
-
-.generaltable th, .generaltable td {
-    border-top-color: var(--theme_contrast_light);
 }
 
 .btn-primary {
