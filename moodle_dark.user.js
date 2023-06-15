@@ -2,7 +2,7 @@
 // @name     Moodle darkmode
 // @match  https://edu.vik.bme.hu/*
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Modern look to Moodle
 // @author       afkfish
 // @grant    GM_addStyle
@@ -105,5 +105,9 @@ a:hover, .btn-link:hover, .que .info, .que .info a {
 
 #page-footer .footer-links li a {
     color: var(--text);
+}
+
+.quizattemptsummary tr.bestrow td {
+    background-color: #52636b!important
 }
 `);
