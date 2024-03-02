@@ -2,7 +2,7 @@
 // @name     Moodle darkmode
 // @match  https://edu.vik.bme.hu/*
 // @namespace    http://tampermonkey.net/
-// @version      1.1.1
+// @version      1.1.2
 // @description  Modern look to Moodle
 // @author       afkfish
 // @grant    GM_addStyle
@@ -116,7 +116,7 @@ a:hover, .btn-link:hover, .que .info, .que .info a {
     background-color: var(--dark1);
 }
 
-.path-grade-report-user .user-grade td, .path-grade-report-user .user-grade td.item {
+.path-grade-report-user .user-grade td, .path-grade-report-user .user-grade td.item, .path-mod .activity-header:not(:empty) {
     background-color: var(--dark2);
 }
 
