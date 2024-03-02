@@ -2,7 +2,7 @@
 // @name     Moodle darkmode
 // @match  https://edu.vik.bme.hu/*
 // @namespace    http://tampermonkey.net/
-// @version      1.1.2
+// @version      1.2.2
 // @description  Modern look to Moodle
 // @author       afkfish
 // @grant    GM_addStyle
